@@ -1,6 +1,6 @@
-import API from '.';
-import { ListResponse, ListParams } from './../models/common';
 import { Student } from 'models';
+import API from '.';
+import { ListParams, ListResponse } from './../models/common';
 
 const studentApi = {
   getAll(params: ListParams): Promise<ListResponse<Student>> {

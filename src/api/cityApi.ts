@@ -1,5 +1,5 @@
-import API from '.';
 import { City, ListResponse } from 'models';
+import API from '.';
 
 const cityApi = {
   getAll(): Promise<ListResponse<City>> {
